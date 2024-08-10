@@ -1,0 +1,37 @@
+@media (max-width: 1440px) and (max-height: 900px) {
+    .container-2 .card {
+      max-height: 82vh;
+    }
+  
+    .container {
+      max-height: 74vh;
+    }
+  
+    .container video {
+      object-fit: cover;
+      height: 100%;
+    }
+  
+    .container h2 {
+      transform: translate(-420%, -400%);
+    }
+  
+    .container h1 {
+      transform: translate(-94%, -70%);
+      font-size: 70px;
+    }
+  
+    .container p {
+      float: left;
+      transform: translate(-6%, -210%);
+    }
+  
+    .container .read-more {
+      margin: 0;
+      transform: translate(54%, 850%);
+    }
+  
+    .grid .about .left {
+      max-height: fit-content;
+    }
+}
